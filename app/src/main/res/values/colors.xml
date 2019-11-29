@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_text">#00CC00</color>
+    <color name="actionbar_background">#666666</color>
+    <color name="common_text_color">#FFFF00</color>
+    <color name="common_button_color">#FFFF00</color>
+    <color name="general_text_color">#0000FF</color>
+    <color name="general_button_color">#222222</color>
+    <color name="unselected_text_color">#FFFFFF</color>
+    <color name="selected_text_color">#FFFF00</color>
+    <color name="selected_background_color">#FF0000</color>
+    <color name="unselected_background_color">#000000</color>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/general_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/view_products_button"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/general_button_shape"
+        android:onClick="OnViewProducts"
+        android:text="@string/view_products_text"
+        android:textColor="@color/common_button_color" />
+
+    <Button
+        android:id="@+id/add_product_button"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/general_button_shape"
+        android:onClick="OnAddProduct"
+        android:text="@string/add_product_text"
+        android:textColor="@color/common_button_color" />
+
+    <Button
+        android:id="@+id/delete_product_button"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/general_button_shape"
+        android:onClick="OnDeleteProduct"
+        android:text="@string/delete_product_text"
+        android:textColor="@color/common_button_color" />
+
+    <Button
+        android:id="@+id/rename_product_button"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/general_button_shape"
+        android:onClick="OnRenameProduct"
+        android:text="@string/rename_product_text"
+        android:textColor="@color/common_button_color" />
+
+</LinearLayout>

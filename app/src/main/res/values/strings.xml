@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main activity strings -->
+    <string name="app_name">KSupermarket</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+    <string name="product_text">Products</string>
+    <string name="list_text">Lists</string>
+    <string name="dispatch_text">Dispatch</string>
+
+    <!-- About activity strings -->
+    <string name="title_activity_about">About Program</string>
+    <string name="exit_choice">Exit</string>
+    <string name="about_text">by Kanaris Manolopoulos\n\nCopyright@2018-19</string>
+
+    <!-- Products Menu activity strings -->
+    <string name="title_activity_products_menu">Products options</string>
+    <string name="view_products_text">View Products</string>
+    <string name="add_product_text">Add Product</string>
+    <string name="delete_product_text">Delete Product</string>
+    <string name="rename_product_text">Rename Product</string>
+    <string name="view_products_operation">ViewProductsOperation</string>
+    <string name="add_product_operation">AddProductOperation</string>
+    <string name="delete_product_operation">DeleteProductOperation</string>
+    <string name="rename_product_operation">RenameProductOperation</string>
+
+    <!-- Lists Menu activity strings -->
+    <string name="title_activity_lists_menu">Lists options</string>
+    <string name="view_edit_lists_text">View/Edit Lists</string>
+    <string name="add_list_text">Add List</string>
+    <string name="delete_list_text">Delete List</string>
+    <string name="rename_list_text">Rename List</string>
+    <string name="view_edit_lists_operation">ViewEditListsOperation</string>
+    <string name="add_list_operation">AddListOperation</string>
+    <string name="delete_list_operation">DeleteListOperation</string>
+    <string name="rename_list_operation">RenameListOperation</string>
+
+    <!-- Dispatch Menu activity strings -->
+    <string name="title_activity_dispatch_menu">Select list options</string>
+    <string name="select_list_text">Select List</string>
+
+    <!-- Products Handle activity strings -->
+    <string name="product_added">Product added</string>
+    <string name="product_not_added">Product could not be added</string>
+    <string name="product_deleted">Product deleted</string>
+    <string name="product_not_deleted">Product could not be deleted</string>
+    <string name="product_renamed">Product renamed</string>
+    <string name="product_not_renamed">Product could not be renamed</string>
+
+    <!-- Lists Handle activity strings -->
+    <string name="list_added">List added</string>
+    <string name="list_not_added">List could not be added</string>
+    <string name="list_deleted">List deleted</string>
+    <string name="list_not_deleted">List could not be deleted</string>
+    <string name="list_renamed">List renamed</string>
+    <string name="list_not_renamed">List could not be renamed</string>
+
+    <!-- List Products Handle activity strings -->
+    <string name="edit_list_text">Edit List</string>
+
+    <!-- Dispatch Handle activity strings -->
+    <string name="dispatch_list_text">Dispatch List</string>
+
+</resources>

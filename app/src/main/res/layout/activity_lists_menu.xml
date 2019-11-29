@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/general_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/view_edit_lists_button"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/general_button_shape"
+        android:onClick="OnViewEditLists"
+        android:text="@string/view_edit_lists_text"
+        android:textColor="@color/common_button_color" />
+
+    <Button
+        android:id="@+id/add_list_button"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/general_button_shape"
+        android:onClick="OnAddList"
+        android:text="@string/add_list_text"
+        android:textColor="@color/common_button_color" />
+
+    <Button
+        android:id="@+id/delete_list_button"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/general_button_shape"
+        android:onClick="OnDeleteList"
+        android:text="@string/delete_list_text"
+        android:textColor="@color/common_button_color" />
+
+    <Button
+        android:id="@+id/rename_list_button"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/general_button_shape"
+        android:onClick="OnRenameList"
+        android:text="@string/rename_list_text"
+        android:textColor="@color/common_button_color" />
+
+</LinearLayout>
